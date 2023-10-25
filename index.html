@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In - Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700&family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="bg"></div>
+      <div class="form-wrapper">
+        <img src="images/plant.png" />
+        <h1 class="form-heading">Fill the Form and Become a Part of Team</h1>
+        <form class="contact-form">
+          <div class="toggle-links">
+            <a class="toggle-link signup">Sign Up</a>
+            <span>/</span>
+            <a class="toggle-link signin">Sign In</a>
+          </div>
+          <div class="inputs">
+            <input
+              type="text"
+              class="input-field hide"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              class="input-field hide"
+              placeholder="Last Name"
+            />
+            <input
+              type="email"
+              class="input-field display"
+              placeholder="Email Address"
+            />
+            <input
+              type="password"
+              class="input-field display"
+              placeholder="Password"
+            />
+            <div class="checkbox hide">
+              <input type="checkbox" id="check" />
+              <label for="check">I agree <span>Terms of Service</span></label>
+            </div>
+          </div>
+          <button class="submit" type="button">Sign Up</button>
+          <div class="social-media">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
